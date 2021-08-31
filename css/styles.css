@@ -1,8 +1,22 @@
+/******* GENERALE ******/
+body{
+    margin: 0;
+}
+section{
+    padding: 0 15px;
+}
+p{
+    margin: 10px 0;
+}
+
+
 /******* Customizzazione header *******/
 /* Sfondo Logo*/
 .bg-logo{
     background-color: #4ea0ff;
     background-image: url(../img/pattern.png);
+    background-size: 300px;
+    padding-top:50px;
 }
 /* Dimensioni logo */
 .logo{
@@ -44,6 +58,8 @@
     height: 250px;
     color: #fff;
     background-size: cover;
+    margin-bottom: 12px;
+    padding:15px;
 }
 .bkg01{
     background-image: url(../img/monitor.jpg);
@@ -59,8 +75,10 @@
 }
 
 /******* Immagini sezione "Potrebbero Interessarti" *******/
-footer{
-    background-color: #4ea0ff;
-    color: #fff;
+footer {
+	background-color: #4ea0ff;
+	color: #fff;
+	padding: 12px;
+	margin-top: 15px;
 }
 
